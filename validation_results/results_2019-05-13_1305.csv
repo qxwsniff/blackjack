@@ -1,0 +1,3 @@
+agent_loc,dbl_Q,lr,y,policy,policy_param,training_eps,lastN,CB_index,meanR_lastN
+Q_matrix/Qmatrix_expID_0_Fi_DblQ0_lr0.01_g0.3_eb.p,0,0.01,0.3,b,1,500000,50000,0,-0.04048
+Q_matrix/Qmatrix_expID_0_CB409524_DblQ0_lr0.01_g0.3_eb.p,0,0.01,0.3,b,1,500000,50000,409524,-0.03004
