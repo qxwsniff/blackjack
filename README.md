@@ -6,8 +6,9 @@ To make the comparison we will simulate games under a strategy recommended by a 
 We show that with the help of a grid search and some additional fine-tuning, we can produce an agent whose expected value of £100 after 100 games is £96.39. In other words, our AI reaches 99.7% of human performance in under an hour.
 Special thanks:
 
-My implementation relies heavily on the following key sources, which I highly recommend:
- - <a href=\"https://github.com/openai/gym/blob/master/gym/envs/toy_text/blackjack.py\" target=\"_blank\"> Blackjack environment created by OpenAI Gym </a>
- - <a href=\"https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0\" target=\"_blank\"> Arthur Juliani's Medium tutorial on Q-learning implementation </a>
--  <a href=\"https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-7-action-selection-strategies-for-exploration-d3a97b7cceaf\" target=\"_blank\"> Arthur Juliani's Medium tutorial on policy rule implementation </a>
+My implementation relies heavily on the following key sources, which I highly recommend taking a closer look at:
+ -https://github.com/openai/gym/blob/master/gym/envs/toy_text/blackjack.py
+ - https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0\
+-  https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-7-action-selection-strategies-for-exploration-d3a97b7cceaf\
+
    
