@@ -1,11 +1,13 @@
 # blackjack
 In [the main notebook of this repository](https://github.com/slmwest/blackjack/blob/master/learn_blackjack.ipynb) I'll show how Q-learning can be used by an agent with no prior knowledge to teach itself to play Blackjack. While I don't expect the agent to find a way to make money from gambling, I am interested in how artifical intelligence trained over hundreds of thousands of games fares against top human performance. Indeed, by the end of this notebook we will show that a model-free agent can learn to play at near-human levels.
 
-To make the comparison we will simulate games under a strategy recommended by a human expert, using the simulation's mean rewards over last 25,000 games as the benchmark. Since mean rewards are expected to be negative in all cases (human or otherwise), we can also reframe this standard RL evaluation metric as something more easily understood to wider audiences: "expected value of funds after 100 games". Using the human strategy, we find that the mean expected value of £100 after 100 games would be £96.65. We will treat this figure as a benchmark for what a "100% accurate" solution looks like.
+To make the comparison we will simulate games under a strategy recommended by a human expert, using the simulation's mean rewards over last 25,000 games as the benchmark. Since mean rewards are expected to be negative in all cases (human or otherwise), we can also reframe this standard RL evaluation metric as something more easily understood to wider audiences: "expected value of funds after 100 games". Using the human strategy, we find that the mean expected value of £100 after 100 games would be **£96.65**. We will treat this figure as a benchmark for what a "100% accurate" solution looks like.
 
-We show that with the help of a grid search and some additional fine-tuning, we can produce an agent whose expected value of £100 after 100 games is £96.39. In other words, **our AI reaches 99.7% of human performance in under an hour**.
+We show that with the help of a grid search and some additional fine-tuning, we can produce an agent whose expected value of £100 after 100 games is **£96.39**. In other words, **our AI reaches 99.7% of human performance in under an hour**. The distribution of results below shows that while the human strategy is slightly higher, the AI will actually perform better on occasion.
 
-In terms of what the human strategy and best agent's strategy looks like, we can show this by making some "advice charts". S stands for Stick, H for Hit and D for Double, plus the 1 in Dealer's initial hand stands for an Ace.
+![Human vs AI results](https://github.com/slmwest/blackjack/blob/master/additional_analysis/human_vs_ai_eval.png)
+
+In terms of differences in the actual strategies adopted by a human and our best agent, we can show this by making some "advice charts". S stands for Stick, H for Hit and D for Double, plus the 1 in Dealer's initial hand stands for an Ace.
 
 ![Human strategy](https://github.com/slmwest/blackjack/blob/master/additional_analysis/human_strategy_chart.png)
 ![AI strategy](https://github.com/slmwest/blackjack/blob/master/additional_analysis/agent_strategy_chart.png)
