@@ -7,8 +7,8 @@ We show that with the help of a grid search and some additional fine-tuning, we 
 
 In terms of what the human strategy and best agent's strategy looks like, we can show this by making some "advice charts". S stands for Stick, H for Hit and D for Double, plus the 1 in Dealer's initial hand stands for an Ace.
 
-[Human strategy](https://github.com/slmwest/blackjack/edit/master/additional_analysis/human_strategy_chart.png)
-[AI strategy](https://github.com/slmwest/blackjack/edit/master/additional_analysis/agent_strategy_chart.png)
+![Human strategy](https://github.com/slmwest/blackjack/blob/master/additional_analysis/agent_strategy_chart.png)
+![AI strategy](https://github.com/slmwest/blackjack/edit/master/additional_analysis/agent_strategy_chart.png)
 
 ### Special thanks:
 My implementation relies heavily on the following key sources, which I highly recommend taking a closer look at:
