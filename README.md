@@ -3,7 +3,7 @@ In [the main notebook of this repository](https://github.com/slmwest/blackjack/b
 
 To make the comparison we will simulate games under a strategy recommended by a human expert, using the simulation's mean rewards over last 25,000 games as the benchmark. Since mean rewards are expected to be negative in all cases (human or otherwise), we can also reframe this standard RL evaluation metric as something more easily understood to wider audiences: "expected value of funds after 100 games". Using the human strategy, we find that the mean expected value of £100 after 100 games would be **£96.65**. We will treat this figure as a benchmark for what a "100% accurate" solution looks like.
 
-We show that with the help of a grid search and some additional fine-tuning, we can produce an agent whose expected value of £100 after 100 games is **£96.39**. In other words, **our AI reaches 99.7% of human performance in under an hour**. The distribution of results below shows that while the human strategy is slightly higher, the AI will actually perform better on occasion.
+We show that with the help of a grid search and some additional fine-tuning, we can produce an agent whose expected value of £100 after 100 games is **£96.39**. In other words, **our AI reaches 99.7% of human performance in under an hour**. The distribution of results below shows that while the human strategy is slightly better, the AI may actually perform better on occasion.
 
 ![Human vs AI results](https://github.com/slmwest/blackjack/blob/master/additional_analysis/human_vs_ai_eval.png)
 
